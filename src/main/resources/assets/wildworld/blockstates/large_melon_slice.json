@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "half=bottom,facing=east": {
+      "model": "wildworld:block/large_melon_slice_bottom_northeast"
+    },
+    "half=bottom,facing=north": {
+      "model": "wildworld:block/large_melon_slice_bottom_northwest"
+    },
+    "half=bottom,facing=west": {
+      "model": "wildworld:block/large_melon_slice_bottom_southwest"
+    },
+    "half=bottom,facing=south": {
+      "model": "wildworld:block/large_melon_slice_bottom_southeast"
+    },
+    "half=top,facing=east": {
+      "model": "wildworld:block/large_melon_slice_top_northeast"
+    },
+    "half=top,facing=north": {
+      "model": "wildworld:block/large_melon_slice_top_northwest"
+    },
+    "half=top,facing=west": {
+      "model": "wildworld:block/large_melon_slice_top_southwest"
+    },
+    "half=top,facing=south": {
+      "model": "wildworld:block/large_melon_slice_top_southeast"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "wildworld:block/flower_carpet",
+  "textures": {
+    "all": "wildworld:block/pink_flower_carpet"
+  }
+}

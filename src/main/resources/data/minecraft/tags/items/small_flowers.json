@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "wildworld:purple_rose",
+    "wildworld:pink_rose",
+    "wildworld:red_rose",
+    "wildworld:white_rose",
+    "wildworld:yellow_rose",
+    "wildworld:black_rose",
+    "wildworld:orange_rose",
+    "wildworld:blue_rose",
+    "wildworld:red_pansies",
+    "wildworld:yellow_pansies",
+    "wildworld:blue_pansies",
+    "wildworld:white_pansies",
+    "wildworld:blue_flower_carpet",
+    "wildworld:orange_flower_carpet",
+    "wildworld:pink_flower_carpet",
+    "wildworld:red_flower_carpet",
+    "wildworld:white_flower_carpet",
+    "wildworld:yellow_tulip",
+    "wildworld:blue_tulip",
+    "wildworld:purple_tulip",
+    "wildworld:green_hyacinths",
+    "wildworld:magenta_hyacinths",
+    "wildworld:blue_hyacinths",
+    "wildworld:orange_hyacinths"
+  ]
+}

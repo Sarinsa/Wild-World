@@ -1,0 +1,26 @@
+{
+  "replace": "false",
+  "values": [
+    "wildworld:potted_purple_rose",
+    "wildworld:potted_pink_rose",
+    "wildworld:potted_red_rose",
+    "wildworld:potted_white_rose",
+    "wildworld:potted_yellow_rose",
+    "wildworld:potted_black_rose",
+    "wildworld:potted_orange_rose",
+    "wildworld:potted_blue_rose",
+    "wildworld:potted_red_pansies",
+    "wildworld:potted_yellow_pansies",
+    "wildworld:potted_blue_pansies",
+    "wildworld:potted_white_pansies",
+    "wildworld:potted_yellow_tulip",
+    "wildworld:potted_blue_tulip",
+    "wildworld:potted_purple_tulip",
+    "wildworld:potted_green_hyacinths",
+    "wildworld:potted_magenta_hyacinths",
+    "wildworld:potted_blue_hyacinths",
+    "wildworld:potted_orange_hyacinths",
+    "wildworld:potted_puffball_mushroom",
+    "wildworld:potted_penny_bun_mushroom"
+  ]
+}

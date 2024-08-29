@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "overgrowth:blue_flower_carpet",
+    "overgrowth:orange_flower_carpet",
+    "overgrowth:pink_flower_carpet",
+    "overgrowth:red_flower_carpet",
+    "overgrowth:white_flower_carpet"
+  ]
+}

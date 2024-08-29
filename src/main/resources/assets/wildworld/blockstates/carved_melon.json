@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "wildworld:block/carved_melon",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "wildworld:block/carved_melon"
+    },
+    "facing=south": {
+      "model": "wildworld:block/carved_melon",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "wildworld:block/carved_melon",
+      "y": 270
+    }
+  }
+}

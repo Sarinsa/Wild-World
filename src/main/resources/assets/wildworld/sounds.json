@@ -1,0 +1,30 @@
+{
+  "entity.seahorse.ambient": {
+    "subtitle": "sound_event.overgrowth.entity.seahorse.ambient",
+    "sounds": [
+      "overgrowth:entity/seahorse/ambient1",
+      "overgrowth:entity/seahorse/ambient2",
+      "overgrowth:entity/seahorse/ambient3"
+    ]
+  },
+  "entity.seahorse.pump": {
+    "subtitle": "sound_event.overgrowth.entity.seahorse.pump",
+    "sounds": [
+      "overgrowth:entity/seahorse/pump1",
+      "overgrowth:entity/seahorse/pump2"
+    ]
+  },
+  "entity.seahorse.hurt": {
+    "subtitle": "sound_event.overgrowth.entity.seahorse.hurt",
+    "sounds": [
+      "overgrowth:entity/seahorse/hurt1",
+      "overgrowth:entity/seahorse/hurt2"
+    ]
+  },
+  "entity.seahorse.death": {
+    "subtitle": "sound_event.overgrowth.entity.seahorse.death",
+    "sounds": [
+      "overgrowth:entity/seahorse/death"
+    ]
+  }
+}
