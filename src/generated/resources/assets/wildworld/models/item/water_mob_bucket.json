@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "wildworld:item/bucket_0",
+      "predicate": {
+        "wildworld:mob_bucket_index": 0.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "wildworld:item/mob_bucket/default"
+  }
+}

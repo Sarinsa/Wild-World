@@ -11,6 +11,6 @@ public class ClientRegistry {
 
     @SubscribeEvent
     public static void onClientSetup(final FMLClientSetupEvent event) {
-
+        event.enqueueWork(ItemModelProps::register);
     }
 }

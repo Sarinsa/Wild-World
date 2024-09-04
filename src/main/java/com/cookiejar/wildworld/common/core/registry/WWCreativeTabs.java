@@ -28,5 +28,7 @@ public class WWCreativeTabs {
 
     private static void populateModTab(CreativeModeTab.ItemDisplayParameters parameters, CreativeModeTab.Output output) {
         WWItems.TAB_QUEUED_ITEMS.get(MOD_TAB_KEY).forEach((supplier) -> output.accept(supplier.get()));
+
+
     }
 }

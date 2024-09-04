@@ -2,6 +2,7 @@ package com.cookiejar.wildworld.common.core.registry;
 
 import com.cookiejar.wildworld.common.block.*;
 import com.cookiejar.wildworld.common.core.WildWorld;
+import com.cookiejar.wildworld.datagen.WWLangProvider;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.CreativeModeTab;
@@ -84,19 +85,21 @@ public class WWBlocks {
 
 
     private static DeferredBlock<Block> register(String name, Supplier<Block> blockSupplier) {
-        return BLOCKS.register(name, blockSupplier);
+        DeferredBlock<Block> regObj = BLOCKS.register(name, blockSupplier);
+        WWLangProvider.BLOCKS.add(regObj);
+        return regObj;
     }
 
     @SafeVarargs
     private static DeferredBlock<Block> registerWithItem(String name, Supplier<Block> blockSupplier, ResourceKey<CreativeModeTab>... tabIds) {
-        DeferredBlock<Block> regObject = BLOCKS.register(name, blockSupplier);
+        DeferredBlock<Block> regObject = register(name, blockSupplier);
         WWItems.registerBlockItem(regObject, tabIds);
         return regObject;
     }
 
     @SafeVarargs
     private static DeferredBlock<Block> registerWithItem(String name, Supplier<Block> blockSupplier, Item.Properties itemProperties, ResourceKey<CreativeModeTab>... tabIds) {
-        DeferredBlock<Block> regObject = BLOCKS.register(name, blockSupplier);
+        DeferredBlock<Block> regObject = register(name, blockSupplier);
         WWItems.registerBlockItem(regObject, itemProperties, tabIds);
         return regObject;
     }
